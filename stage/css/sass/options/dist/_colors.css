@@ -1,0 +1,49 @@
+.green-theme .page .page-head .page-title {
+  color: #27ae60;
+}
+.green-theme .page .sidebar .links-area .child-links a:hover:before {
+  background-color: #27ae60;
+}
+.green-theme .header .usermenu-container .dropdown-menu .user-info h3 {
+  color: #27ae60;
+}
+
+.blue-theme .page .page-head .page-title {
+  color: #2980b9;
+}
+.blue-theme .page .sidebar .links-area .child-links a:hover:before {
+  background-color: #2980b9;
+}
+.blue-theme .header .usermenu-container .dropdown-menu .user-info h3 {
+  color: #2980b9;
+}
+
+.red-theme .page .page-head .page-title {
+  color: #c0392b;
+}
+.red-theme .page .sidebar .links-area .child-links a:hover:before {
+  background-color: #c0392b;
+}
+.red-theme .header .usermenu-container .dropdown-menu .user-info h3 {
+  color: #c0392b;
+}
+
+.orange-theme .page .page-head .page-title {
+  color: orange;
+}
+.orange-theme .page .sidebar .links-area .child-links a:hover:before {
+  background-color: orange;
+}
+.orange-theme .header .usermenu-container .dropdown-menu .user-info h3 {
+  color: orange;
+}
+
+.purple-theme .page .page-head .page-title {
+  color: #8e44ad;
+}
+.purple-theme .page .sidebar .links-area .child-links a:hover:before {
+  background-color: #8e44ad;
+}
+.purple-theme .header .usermenu-container .dropdown-menu .user-info h3 {
+  color: #8e44ad;
+}

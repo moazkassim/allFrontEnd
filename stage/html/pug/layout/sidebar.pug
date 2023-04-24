@@ -1,0 +1,21 @@
+.sidebar
+    .logo-area.text-center Moaz 
+    ul.links-area.list-unstyled
+        li: a(href="homepage.html" class= pageTitle==="Homepage" ? "active" :"") Homepage 
+        li 
+            a.toggle-submenu(href="#") 
+                |Forms 
+                i.fa-solid.fa-angle-right
+            ul.child-links.list-unstyled
+                li: a(href="#") Input 
+                li: a(href="#") Textarea 
+                li: a(href="#") Checkbox 
+                li: a(href="#") Radio 
+        li 
+            a.toggle-submenu(href="#")
+                |Misc
+                i.fa-solid.fa-angle-right 
+            ul.child-links.list-unstyled
+                li: a(href="#") Loading 
+                li: a(href="#") BreadCrumbs
+        li: a(href="charts.html"  class= pageTitle==="Charts"?"active" :"") Charts 

@@ -1,0 +1,58 @@
+.header 
+    i.fa-solid.fa-arrow-right-arrow-left.toggle-sidebar
+    .dropdown.notifications-container
+        i.fa-regular.fa-bell.toggle-notifications.header-icon#notifications( data-bs-toggle='dropdown' aria-expanded='false')
+        .dropdown-menu(aria-labelledby='notifications')
+        
+            .noti-head
+                | Notifications
+                span 50
+            .noti-content 
+                ul.list-unstyled
+                    li
+                        i.fa-regular.fa-envelope
+                        | You got some emails 
+                    li
+                        i.fa-solid.fa-money-bill
+                        | Your money transfer 
+                    li
+                        i.fa-brands.fa-github
+                        | Github repos
+                    li
+                        i.fa-regular.fa-trash-can
+                        | Some trashs 
+                    li
+                        i.fa-regular.fa-envelope
+                        | You got some emails 
+            .noti-foot.text-center: a(href="#") View All Notifications
+    i.fa-solid.fa-expand.toggle-fullscreen.header-icon
+    .dropdown.usermenu-container
+        .usernanme#usermenu( data-bs-toggle='dropdown' aria-expanded='false',aria-haspopuo="true")
+            img.avatar.rounded-circle(src="imgs/avatar.jpg",alt="User Avatar")
+            span.user Moaz Kassim
+            i.fa-solid.fa-angle-down
+        .dropdown-menu-right.dropdown-menu(aria-labelledby='usermenu')
+            .user-info
+                h3 Moaz Ahmed
+                p Premium Member
+            hr 
+            ul.activites-list.list-unstyled
+                li Added Comment On Post "how to make la pla"
+                li Creating Post On Category "Science"
+                li Added Chart On Charts Page
+                li Creating Post On Category "Science"
+            hr 
+            .row.usermenu-links
+                .col
+                    .link-box 
+                        i.fa-solid.fa-gear
+                        span Settings
+                .col
+                    .link-box
+                        i.fa-regular.fa-user
+                        span My Profile
+                .col
+                    .link-box
+                        i.fa-solid.fa-right-from-bracket
+                        span Logout
+        
